@@ -1,0 +1,13 @@
+name: consulting-time-tracker
+display_name: "Consulting Time & Expense Tracker"
+
+command:
+  - "python"
+  - "app.py"
+
+compute:
+  size: "S"
+
+env:
+  - name: "DATABRICKS_APP_PORT"
+    value: "8000"
